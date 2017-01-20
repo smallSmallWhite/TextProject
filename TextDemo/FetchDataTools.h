@@ -17,7 +17,6 @@ typedef enum : NSUInteger {
 typedef void(^requestSuccessBlock)(NSData *data);
 typedef void(^requestFailedBlock)(NSError *error);
 @interface FetchDataTools : AFHTTPSessionManager
-+ (FetchDataTools *)sharedManager;
 + (void)requestDataWithUrlString:(NSString *)urlString
                   WithHttpMethod:(HttpMethod)method
                   WithParmarters:(NSDictionary *)parmarter
