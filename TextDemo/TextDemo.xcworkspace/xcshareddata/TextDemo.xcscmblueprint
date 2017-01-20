@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F797D120399F8708AA188C41F1F418566A4861D1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F797D120399F8708AA188C41F1F418566A4861D1" : 0,
+    "E919808023CA4E81D784DED1AB6A9D2A64BF31D3" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8F04579A-8F0B-4A2C-8D5B-E23FD26163A1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F797D120399F8708AA188C41F1F418566A4861D1" : "TextProject\/",
+    "E919808023CA4E81D784DED1AB6A9D2A64BF31D3" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TextDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TextDemo\/TextDemo.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/smallSmallWhite\/Carthage.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E919808023CA4E81D784DED1AB6A9D2A64BF31D3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/smallSmallWhite\/TextProject.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F797D120399F8708AA188C41F1F418566A4861D1"
+    }
+  ]
+}

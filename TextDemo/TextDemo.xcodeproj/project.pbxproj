@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45859A4364DCA86C6ADAC27A /* Pods_TextDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D9C4D1D7EC9F276C14AB5BA /* Pods_TextDemo.framework */; };
 		84EA9B931E31A6D30097BD32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EA9B921E31A6D30097BD32 /* main.m */; };
 		84EA9B961E31A6D30097BD32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EA9B951E31A6D30097BD32 /* AppDelegate.m */; };
-		84EA9B991E31A6D30097BD32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EA9B981E31A6D30097BD32 /* ViewController.m */; };
 		84EA9B9C1E31A6D30097BD32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EA9B9A1E31A6D30097BD32 /* Main.storyboard */; };
 		84EA9B9E1E31A6D30097BD32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84EA9B9D1E31A6D30097BD32 /* Assets.xcassets */; };
 		84EA9BA11E31A6D30097BD32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EA9B9F1E31A6D30097BD32 /* LaunchScreen.storyboard */; };
 		84EA9BAC1E31A6D30097BD32 /* TextDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EA9BAB1E31A6D30097BD32 /* TextDemoTests.m */; };
 		84EA9BB71E31A6D30097BD32 /* TextDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EA9BB61E31A6D30097BD32 /* TextDemoUITests.m */; };
+		84F4474A1E31B2D3003CDF5F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F447491E31B2D3003CDF5F /* FirstViewController.m */; };
+		84F447501E31B34F003CDF5F /* FindHouseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F4474F1E31B34F003CDF5F /* FindHouseViewController.m */; };
+		84F447561E31B3AC003CDF5F /* RentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F447551E31B3AC003CDF5F /* RentViewController.m */; };
+		84F4475C1E31B3FB003CDF5F /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F4475B1E31B3FB003CDF5F /* MyViewController.m */; };
+		84F447641E31ED9B003CDF5F /* FetchDataTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F447631E31ED9B003CDF5F /* FetchDataTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,22 +40,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D9C4D1D7EC9F276C14AB5BA /* Pods_TextDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84EA9B8E1E31A6D20097BD32 /* TextDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84EA9B921E31A6D30097BD32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		84EA9B941E31A6D30097BD32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		84EA9B951E31A6D30097BD32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		84EA9B971E31A6D30097BD32 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		84EA9B981E31A6D30097BD32 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84EA9B941E31A6D30097BD32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = TextDemo/AppDelegate.h; sourceTree = "<group>"; };
+		84EA9B951E31A6D30097BD32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = TextDemo/AppDelegate.m; sourceTree = "<group>"; };
 		84EA9B9B1E31A6D30097BD32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		84EA9B9D1E31A6D30097BD32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84EA9B9D1E31A6D30097BD32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = TextDemo/Assets.xcassets; sourceTree = "<group>"; };
 		84EA9BA01E31A6D30097BD32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		84EA9BA21E31A6D30097BD32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84EA9BA21E31A6D30097BD32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = TextDemo/Info.plist; sourceTree = "<group>"; };
 		84EA9BA71E31A6D30097BD32 /* TextDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84EA9BAB1E31A6D30097BD32 /* TextDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextDemoTests.m; sourceTree = "<group>"; };
 		84EA9BAD1E31A6D30097BD32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84EA9BB21E31A6D30097BD32 /* TextDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84EA9BB61E31A6D30097BD32 /* TextDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextDemoUITests.m; sourceTree = "<group>"; };
 		84EA9BB81E31A6D30097BD32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F447481E31B2D3003CDF5F /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		84F447491E31B2D3003CDF5F /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		84F4474E1E31B34F003CDF5F /* FindHouseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindHouseViewController.h; sourceTree = "<group>"; };
+		84F4474F1E31B34F003CDF5F /* FindHouseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindHouseViewController.m; sourceTree = "<group>"; };
+		84F447541E31B3AC003CDF5F /* RentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RentViewController.h; sourceTree = "<group>"; };
+		84F447551E31B3AC003CDF5F /* RentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RentViewController.m; sourceTree = "<group>"; };
+		84F4475A1E31B3FB003CDF5F /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		84F4475B1E31B3FB003CDF5F /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		84F447621E31ED9B003CDF5F /* FetchDataTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FetchDataTools.h; sourceTree = "<group>"; };
+		84F447631E31ED9B003CDF5F /* FetchDataTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FetchDataTools.m; sourceTree = "<group>"; };
+		C0B6F6121EE7AB1CA9BF8D05 /* Pods-TextDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TextDemo/Pods-TextDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F29F8A394AE3DF9418A39422 /* Pods-TextDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TextDemo/Pods-TextDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45859A4364DCA86C6ADAC27A /* Pods_TextDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +95,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29E2DEE51E4F2DEA812C8E6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F29F8A394AE3DF9418A39422 /* Pods-TextDemo.debug.xcconfig */,
+				C0B6F6121EE7AB1CA9BF8D05 /* Pods-TextDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		84EA9B851E31A6D20097BD32 = {
 			isa = PBXGroup;
 			children = (
+				84F4475E1E31BD06003CDF5F /* PublicTools */,
+				84F4475D1E31B4C1003CDF5F /* other */,
 				84EA9B901E31A6D30097BD32 /* TextDemo */,
+				84F447441E31B253003CDF5F /* 我的 */,
+				84F447431E31B245003CDF5F /* 租房 */,
+				84F447421E31B231003CDF5F /* 找房子 */,
+				84F447411E31B222003CDF5F /* 首页 */,
 				84EA9BAA1E31A6D30097BD32 /* TextDemoTests */,
 				84EA9BB51E31A6D30097BD32 /* TextDemoUITests */,
 				84EA9B8F1E31A6D20097BD32 /* Products */,
+				29E2DEE51E4F2DEA812C8E6E /* Pods */,
+				93A20354A2397B83DD1EEF03 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +135,6 @@
 		84EA9B901E31A6D30097BD32 /* TextDemo */ = {
 			isa = PBXGroup;
 			children = (
-				84EA9B941E31A6D30097BD32 /* AppDelegate.h */,
-				84EA9B951E31A6D30097BD32 /* AppDelegate.m */,
-				84EA9B971E31A6D30097BD32 /* ViewController.h */,
-				84EA9B981E31A6D30097BD32 /* ViewController.m */,
-				84EA9B9A1E31A6D30097BD32 /* Main.storyboard */,
-				84EA9B9D1E31A6D30097BD32 /* Assets.xcassets */,
-				84EA9B9F1E31A6D30097BD32 /* LaunchScreen.storyboard */,
-				84EA9BA21E31A6D30097BD32 /* Info.plist */,
 				84EA9B911E31A6D30097BD32 /* Supporting Files */,
 			);
 			path = TextDemo;
@@ -140,6 +166,168 @@
 			path = TextDemoUITests;
 			sourceTree = "<group>";
 		};
+		84F447411E31B222003CDF5F /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				84F447471E31B289003CDF5F /* C */,
+				84F447461E31B27D003CDF5F /* V */,
+				84F447451E31B274003CDF5F /* M */,
+			);
+			name = "首页";
+			sourceTree = "<group>";
+		};
+		84F447421E31B231003CDF5F /* 找房子 */ = {
+			isa = PBXGroup;
+			children = (
+				84F4474D1E31B32B003CDF5F /* M */,
+				84F4474C1E31B321003CDF5F /* V */,
+				84F4474B1E31B317003CDF5F /* C */,
+			);
+			name = "找房子";
+			sourceTree = "<group>";
+		};
+		84F447431E31B245003CDF5F /* 租房 */ = {
+			isa = PBXGroup;
+			children = (
+				84F447531E31B392003CDF5F /* C */,
+				84F447521E31B38A003CDF5F /* V */,
+				84F447511E31B37D003CDF5F /* M */,
+			);
+			name = "租房";
+			sourceTree = "<group>";
+		};
+		84F447441E31B253003CDF5F /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				84F447591E31B3ED003CDF5F /* C */,
+				84F447581E31B3E6003CDF5F /* V */,
+				84F447571E31B3D9003CDF5F /* M */,
+			);
+			name = "我的";
+			sourceTree = "<group>";
+		};
+		84F447451E31B274003CDF5F /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = M;
+			sourceTree = "<group>";
+		};
+		84F447461E31B27D003CDF5F /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = V;
+			sourceTree = "<group>";
+		};
+		84F447471E31B289003CDF5F /* C */ = {
+			isa = PBXGroup;
+			children = (
+				84F447481E31B2D3003CDF5F /* FirstViewController.h */,
+				84F447491E31B2D3003CDF5F /* FirstViewController.m */,
+			);
+			name = C;
+			sourceTree = "<group>";
+		};
+		84F4474B1E31B317003CDF5F /* C */ = {
+			isa = PBXGroup;
+			children = (
+				84F4474E1E31B34F003CDF5F /* FindHouseViewController.h */,
+				84F4474F1E31B34F003CDF5F /* FindHouseViewController.m */,
+			);
+			name = C;
+			sourceTree = "<group>";
+		};
+		84F4474C1E31B321003CDF5F /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = V;
+			sourceTree = "<group>";
+		};
+		84F4474D1E31B32B003CDF5F /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = M;
+			sourceTree = "<group>";
+		};
+		84F447511E31B37D003CDF5F /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = M;
+			sourceTree = "<group>";
+		};
+		84F447521E31B38A003CDF5F /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = V;
+			sourceTree = "<group>";
+		};
+		84F447531E31B392003CDF5F /* C */ = {
+			isa = PBXGroup;
+			children = (
+				84F447541E31B3AC003CDF5F /* RentViewController.h */,
+				84F447551E31B3AC003CDF5F /* RentViewController.m */,
+			);
+			name = C;
+			sourceTree = "<group>";
+		};
+		84F447571E31B3D9003CDF5F /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = M;
+			sourceTree = "<group>";
+		};
+		84F447581E31B3E6003CDF5F /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = V;
+			sourceTree = "<group>";
+		};
+		84F447591E31B3ED003CDF5F /* C */ = {
+			isa = PBXGroup;
+			children = (
+				84F4475A1E31B3FB003CDF5F /* MyViewController.h */,
+				84F4475B1E31B3FB003CDF5F /* MyViewController.m */,
+			);
+			name = C;
+			sourceTree = "<group>";
+		};
+		84F4475D1E31B4C1003CDF5F /* other */ = {
+			isa = PBXGroup;
+			children = (
+				84EA9B941E31A6D30097BD32 /* AppDelegate.h */,
+				84EA9B951E31A6D30097BD32 /* AppDelegate.m */,
+				84EA9B9A1E31A6D30097BD32 /* Main.storyboard */,
+				84EA9B9F1E31A6D30097BD32 /* LaunchScreen.storyboard */,
+				84EA9BA21E31A6D30097BD32 /* Info.plist */,
+				84EA9B9D1E31A6D30097BD32 /* Assets.xcassets */,
+			);
+			name = other;
+			sourceTree = "<group>";
+		};
+		84F4475E1E31BD06003CDF5F /* PublicTools */ = {
+			isa = PBXGroup;
+			children = (
+				84F447621E31ED9B003CDF5F /* FetchDataTools.h */,
+				84F447631E31ED9B003CDF5F /* FetchDataTools.m */,
+			);
+			name = PublicTools;
+			sourceTree = "<group>";
+		};
+		93A20354A2397B83DD1EEF03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D9C4D1D7EC9F276C14AB5BA /* Pods_TextDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +335,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84EA9BBB1E31A6D30097BD32 /* Build configuration list for PBXNativeTarget "TextDemo" */;
 			buildPhases = (
+				C022FB944DDF0AD2DBA5CB79 /* [CP] Check Pods Manifest.lock */,
 				84EA9B8A1E31A6D20097BD32 /* Sources */,
 				84EA9B8B1E31A6D20097BD32 /* Frameworks */,
 				84EA9B8C1E31A6D20097BD32 /* Resources */,
+				D79CF588125D536FDDDD2E69 /* [CP] Embed Pods Frameworks */,
+				5F851B42195BBE20A7B2DB97 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,13 +456,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5F851B42195BBE20A7B2DB97 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TextDemo/Pods-TextDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C022FB944DDF0AD2DBA5CB79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D79CF588125D536FDDDD2E69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TextDemo/Pods-TextDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84EA9B8A1E31A6D20097BD32 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84EA9B991E31A6D30097BD32 /* ViewController.m in Sources */,
+				84F447641E31ED9B003CDF5F /* FetchDataTools.m in Sources */,
+				84F4475C1E31B3FB003CDF5F /* MyViewController.m in Sources */,
+				84F447501E31B34F003CDF5F /* FindHouseViewController.m in Sources */,
+				84F447561E31B3AC003CDF5F /* RentViewController.m in Sources */,
 				84EA9B961E31A6D30097BD32 /* AppDelegate.m in Sources */,
+				84F4474A1E31B2D3003CDF5F /* FirstViewController.m in Sources */,
 				84EA9B931E31A6D30097BD32 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,6 +557,7 @@
 				84EA9B9B1E31A6D30097BD32 /* Base */,
 			);
 			name = Main.storyboard;
+			path = TextDemo;
 			sourceTree = "<group>";
 		};
 		84EA9B9F1E31A6D30097BD32 /* LaunchScreen.storyboard */ = {
@@ -322,6 +566,7 @@
 				84EA9BA01E31A6D30097BD32 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = TextDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -413,6 +658,7 @@
 		};
 		84EA9BBC1E31A6D30097BD32 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F29F8A394AE3DF9418A39422 /* Pods-TextDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TextDemo/Info.plist;
@@ -424,6 +670,7 @@
 		};
 		84EA9BBD1E31A6D30097BD32 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0B6F6121EE7AB1CA9BF8D05 /* Pods-TextDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TextDemo/Info.plist;
@@ -498,6 +745,7 @@
 				84EA9BBD1E31A6D30097BD32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84EA9BBE1E31A6D30097BD32 /* Build configuration list for PBXNativeTarget "TextDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +754,7 @@
 				84EA9BC01E31A6D30097BD32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84EA9BC11E31A6D30097BD32 /* Build configuration list for PBXNativeTarget "TextDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +763,7 @@
 				84EA9BC31E31A6D30097BD32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

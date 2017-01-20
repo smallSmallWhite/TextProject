@@ -1,27 +1,30 @@
 //
-//  ViewController.m
+//  MyViewController.m
 //  TextDemo
 //
 //  Created by admin on 17/1/20.
 //  Copyright © 2017年 admin. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MyViewController.h"
 
-@interface ViewController ()
+@interface MyViewController ()
 
 @end
 
-@implementation ViewController
+@implementation MyViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor orangeColor];
+    self.navigationItem.title = @"我的";
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 
 @end

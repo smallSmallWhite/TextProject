@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RentViewController.h
 //  TextDemo
 //
 //  Created by admin on 17/1/20.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface RentViewController : UIViewController
 
 @end
-
